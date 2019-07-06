@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/comments/main",
+    "pages/mine/main",
+    "pages/myAdd/main",
+    "pages/books/main",
+    "pages/foots/main",
+    "pages/bookDetail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#666",
+    "navigationBarTitleText": "图书系统",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#202020",
+    "selectedColor": "#ec5045",
+    "list": [
+      {
+        "pagePath": "pages/mine/main",
+        "text": "用户中心",
+        "iconPath": "/static/images/me.png",
+        "selectedIconPath": "/static/images/me-active.png"
+      },
+      {
+        "pagePath": "pages/books/main",
+        "text": "图书列表",
+        "iconPath": "/static/images/book.png",
+        "selectedIconPath": "/static/images/book-active.png"
+      }
+    ]
+  }
+}
